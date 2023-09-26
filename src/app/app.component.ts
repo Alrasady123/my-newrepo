@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  myObj = {
+    nam : 'hemed',
+    age : 2023 - 2005,
+    address : 'Maungani',
+    job : 'jobless'
+  };
+  myarr = [
+    'a',
+    'b',
+    'c'
+  ]
+
 }
